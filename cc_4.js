@@ -13,3 +13,11 @@ for (let i = 0; i < sales.length; i++){
     totalSales += sales[i]
 }
 console.log(`Total Sales: $${totalSales}`); //template literal
+
+//Task 3: While Loop - Scenario: Inventory Depletion
+let stock = 10; //current stock
+while (stock > 0 ) {
+    console.log(`Stock remaining: ${stock}`);
+    stock--; //decreases by 1 until 0
+}
+console.log("Stock has reached 0");
