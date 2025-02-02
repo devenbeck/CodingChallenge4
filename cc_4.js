@@ -65,3 +65,10 @@ const applyDiscount = function(price, discountPercentage){
 };
 let discountedPrice = applyDiscount (200,15) //15% off $200, console should be 170
 console.log(`Discounted price:$${discountedPrice}`);
+
+//Task 10: Arrow Functions - Scenario: Loyalty Points
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount/ 10);
+};
+let points = calculatePoints(500);
+console.log(`Loyalty Points: ${points}`); //1 point per $10 spent 
