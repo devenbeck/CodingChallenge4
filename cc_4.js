@@ -46,3 +46,8 @@ let products = ["Laptop", "Mouse", "Keyboard"]; //list of products
 for (let product of products) {
     console.log(`Product: ${product}`);
 }
+//Task 7: ForEach() Method - Scenario: Order Processing
+let orders = [101,102,103]; //array of orders
+orders.forEach(order => {
+    console.log(`order ID: ${order}`)
+}); // printing the order IDs
