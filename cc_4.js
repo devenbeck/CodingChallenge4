@@ -28,3 +28,15 @@ do {
     console.log(`Collecting responses: ${responses}`);
     responses++;
 } while (responses <=3); //until reaches 3
+
+//Task 5: For... In Loop - Scenario : Employee Information
+let employee = {     //declaring object employee
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+}; //object employee
+for (let key in employee) {              // the loop variable represents for each key... name is a key and alice 
+// is value for it. keys are like the labels for the properties of an object
+  console.log(`${key}: ${employee[key]}`);
+
+}
