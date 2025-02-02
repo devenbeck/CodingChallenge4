@@ -40,3 +40,9 @@ for (let key in employee) {              // the loop variable represents for eac
   console.log(`${key}: ${employee[key]}`);
 
 }
+
+//Task 6: For... Of Loop - Scenario: Product Listings
+let products = ["Laptop", "Mouse", "Keyboard"]; //list of products
+for (let product of products) {
+    console.log(`Product: ${product}`);
+}
