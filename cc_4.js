@@ -21,3 +21,10 @@ while (stock > 0 ) {
     stock--; //decreases by 1 until 0
 }
 console.log("Stock has reached 0");
+
+//Task 4: Do... While Loop - Scenario: Customer Survey
+let responses = 0;
+do {
+    console.log(`Collecting responses: ${responses}`);
+    responses++;
+} while (responses <=3); //until reaches 3
